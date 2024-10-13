@@ -11,8 +11,8 @@ Serial.println("GPS.............................................................
 }
 
 if (NAVIMODE == 40){
-NAVLAT = 55.640328;
-NAVLON = -4.797045;
+NAVLAT = 55.000;
+NAVLON = -4.0000;
 sendNMEALONWP();
 sendNMEALATWP();
 confirmnavchange();
